@@ -1,8 +1,20 @@
 
 
-//learning the Git and Git hub. 
-//git status : = >  To check the status of the files 
-//let's modify the file and check the git status
-//git restore : =>  to make it untracked again 
-//git log : => To see all the Logs ( changes that are made)
-//rm -rf (file name) : =>  to delete the file
+learning the Git and Git hub. 
+git status : = >  To check the status of the files 
+let's modify the file and check the git status
+git restore : =>  to make it untracked again 
+git log : => To see all the Logs ( changes that are made)
+rm -rf (file name) : =>  to delete the file
+git stash ==>  Putting the code somewhere else without commitin
+git branch ==> create a new branch .if we are workig on a new code and we don't want to add it to the main branch then
+ we can make the seprte branch and add new code to that branch
+So that our user base will not get affected 
+command git branch creates a new branch
+what is upstrem URL : =>  the url from where you have forked the project 
+if the branch alredy have the pull request and you make the changes to that branch then you can't
+create a new pull request that changes will get add to the that pull requests commit it self. 
+one branch can be associated with only one pull request. So for every new pull request make the new branch
+git fetch ==>  Fetching the data from upstream branch command: =>  git fetch --all --prune , (--prune) to fetch deleted
+files as well.
+
