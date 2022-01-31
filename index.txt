@@ -17,4 +17,6 @@ create a new pull request that changes will get add to the that pull requests co
 one branch can be associated with only one pull request. So for every new pull request make the new branch
 git fetch ==>  Fetching the data from upstream branch command: =>  git fetch --all --prune , (--prune) to fetch deleted
 files as well.
+git rebase ==> To merge the commits. For Example if you have multiple commits then you can combine all the 
+commits into the one single commit with the help of the git rebase commit 
 
